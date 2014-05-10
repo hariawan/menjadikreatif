@@ -1,0 +1,196 @@
+body {
+	font-size: 9px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background-color: #d4ccba;
+	background-image: url(img/bg_noise.png);
+	/*background: 	-webkit-radial-gradient(#615D5C 1%, transparent 16%) 0 0,
+ 					-webkit-radial-gradient(#615D5C 1%, transparent 16%) 8px 8px,
+ 					-webkit-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+ 					-webkit-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+ 	background: 	-moz-radial-gradient(#615D5C 1%, transparent 16%) 0 0,
+ 					-moz-radial-gradient(#615D5C 1%, transparent 16%) 8px 8px,
+ 					-moz-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+ 					-moz-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+ 	background: 	-ms-radial-gradient(#615D5C 1%, transparent 16%) 0 0,
+ 					-ms-radial-gradient(#615D5C 1%, transparent 16%) 8px 8px,
+ 					-ms-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+ 					-ms-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+ 	background: 	-o-radial-gradient(#615D5C 1%, transparent 16%) 0 0,
+ 					-o-radial-gradient(#615D5C 1%, transparent 16%) 8px 8px,
+ 					-o-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+ 					-o-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+ 	background: 	radial-gradient(#615D5C 1%, transparent 16%) 0 0,
+ 					radial-gradient(#615D5C 1%, transparent 16%) 8px 8px,
+ 					radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+ 					radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#d4ccba;
+	background-size:16px 8px;*/
+}
+
+#content_image {
+	width: 100%;
+	height: 143px;
+	overflow: hidden;
+}
+
+#content_image img {
+	left: 50%;
+	right: 50%;
+	margin-left: -392px;
+	margin-left: -392px;
+	max-width: 100%;
+	width: 784px; 
+	height: 143px; 
+	position: absolute;
+	text-align: center;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;	
+	transition: opacity 1s ease-in-out;
+}
+
+#content_image img.top:hover {
+	opacity: 0;
+}
+
+#invitation_link {
+	position: relative;
+	width: 784px; 
+	left: 50%;
+	right: 50%;
+	margin-left: -392px;
+	margin-left: -392px;
+	max-width: 100%;
+	text-align: right;
+	
+	font-family: 'Varela', sans-serif;
+	color: #615D5C;
+	font-size: 13px;
+	float: none;
+}
+
+#invitation_link a {
+	text-decoration: underline;
+}
+
+#invitation_link a:hover {
+	text-decoration: none;
+}
+
+.topright {
+    display: block;
+
+    /*set the div in the top right corner*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75px;
+    height: 40px;
+    
+    /*give it some background and border*/
+    background: transparent;
+}
+
+.topright img {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;	
+	transition: opacity 0.2s ease-in-out;
+}
+
+.topright img.top:hover {
+	opacity: 0;
+}	
+
+h1 {
+	font-family: 'Chau Philomene One', sans-serif;
+	color: #615D5C;
+	font-size: 28px;
+}
+
+h2 {
+	font-family: 'Handlee', cursive;
+	color: #615D5C;
+}
+
+::-webkit-selection {
+    background: #D3CBB9;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #D3CBB9;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #D3CBB9;
+    color: #fff;
+    text-shadow: none;
+}
+
+.new-title {
+	font-family: 'Sigmar One', sans-serif;
+	color: #615D5C;
+	font-size: 23px;
+	text-align: center;
+	float: none;
+}
+
+.showcase {
+	width: 100%;
+	text-align: center;
+	left: auto;
+	right: auto;
+	position: relative;
+}
+
+#about-center {
+	width: 100%;
+	text-align: center;
+	color: #999;
+	position: fixed;
+	top: 50%;
+	bottom: 50%;
+}
+
+#exp-control {
+	text-align: right;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.sourcecode
+{
+	margin:0px;
+	padding:5px;
+	text-align:left;
+	background:#292929;
+	border:solid 3px #f55f24;
+	display:none;
+	color:#d2a379;
+}
+
+div.showhide,p.flip
+{
+	margin:0px;
+	padding:3px;
+	text-align:center;
+	background:#f55f24;
+	border:solid 0px #f55f24;
+	color:#d2a379;
+	font-weight:bold;
+	font-family:"Verdana", Times, serif;
+	font-size:12px;
+}
